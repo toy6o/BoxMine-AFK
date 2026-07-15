@@ -49,6 +49,7 @@ jobs:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           TG_BOT: ${{ secrets.TG_BOT }}
           GOST_PROXY: ${{ secrets.GOST_PROXY }}
+          CRON_JOB: ${{ secrets.CRON_JOB }}
         run: python boxmine_afk.py
 
       - name: 📤 推回私库
